@@ -1,0 +1,24 @@
+header {
+    background-color: rgb(3, 3, 71);
+    color: white;
+    padding: 0.5em 1em;
+    display: flex;
+}
+
+.top-menu {
+    flex-grow: 1;
+    display: flex;
+
+    a {
+        margin-left: 1em;
+        color: white;
+
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+
+    .user-info {
+        margin-left: auto;
+    }
+}
